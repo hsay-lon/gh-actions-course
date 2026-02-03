@@ -1,9 +1,10 @@
 
 name: 05 -1 Filters - Activity Types
 
-on: pull_request:
-    types: [opened, reopened, synchronize]
-    branches:
+on: 
+    pull_request:
+        types: [opened, reopened, synchronize]
+        branches:
         - main
 
 jobs:
